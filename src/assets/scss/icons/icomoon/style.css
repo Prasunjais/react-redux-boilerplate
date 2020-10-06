@@ -1,0 +1,121 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?9yp9tl');
+  src:  url('fonts/icomoon.eot?9yp9tl#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?9yp9tl') format('truetype'),
+    url('fonts/icomoon.woff?9yp9tl') format('woff'),
+    url('fonts/icomoon.svg?9yp9tl#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-crowde-28:before {
+  content: "\e91c";
+  color: #cacaca;
+}
+.icon-crowde-5:before {
+  content: "\e915";
+}
+.icon-crowde-24:before {
+  content: "\e91a";
+}
+.icon-close:before {
+  content: "\e91e";
+}
+.icon-left:before {
+  content: "\e917";
+}
+.icon-right:before {
+  content: "\e90c";
+}
+.icon-crowde-22:before {
+  content: "\e919";
+}
+.icon-Polygon-1:before {
+  content: "\e914";
+}
+.icon-crowde-6:before {
+  content: "\e904";
+}
+.icon-crowde-7:before {
+  content: "\e905";
+}
+.icon-crowde-8:before {
+  content: "\e906";
+}
+.icon-crowde-9:before {
+  content: "\e907";
+}
+.icon-crowde-10:before {
+  content: "\e908";
+}
+.icon-crowde-11:before {
+  content: "\e909";
+}
+.icon-crowde-12:before {
+  content: "\e90a";
+}
+.icon-crowde-13:before {
+  content: "\e90b";
+}
+.icon-crowde-14:before {
+  content: "\e90d";
+}
+.icon-crowde-15:before {
+  content: "\e90e";
+}
+.icon-crowde-16:before {
+  content: "\e90f";
+}
+.icon-crowde-17:before {
+  content: "\e910";
+}
+.icon-crowde-18:before {
+  content: "\e911";
+}
+.icon-crowde-19:before {
+  content: "\e912";
+}
+.icon-crowde-20:before {
+  content: "\e913";
+}
+.icon-crowde-21:before {
+  content: "\e900";
+}
+.icon-crowde-25:before {
+  content: "\e91b";
+}
+.icon-inactive-2:before {
+  content: "\e916";
+}
+.icon-crowde-27:before {
+  content: "\e91d";
+}
+.icon-crowde-23:before {
+  content: "\e918";
+}
+.icon-crowde-4:before {
+  content: "\e901";
+}
+.icon-crowde-3:before {
+  content: "\e902";
+}
+.icon-crowde-2:before {
+  content: "\e903";
+}

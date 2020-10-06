@@ -1,0 +1,52 @@
+$white: #fff;
+$black: #000;
+
+$font-OpenSans: "Open Sans", sans-serif !important;
+
+$c1: #0079c0;
+$c2: #b53c8d;
+$c3: #353a3d;
+$c4: #3d4856;
+$c5: #4f4f4f;
+$c6: #606060;
+$c6-5: #60606080;
+$c7: #787878;
+$c8: #f2f2f2;
+$c9: #333333;
+
+.text-black {
+    color: $black;
+}
+
+/* Color */
+$myColors: (
+    "c1": $c1,
+    "c2": $c2,
+    "c3": $c3,
+    "c4": $c4,
+    "c5": $c5,
+    "c6": $c6,
+    "c6-5": $c6-5,
+    "c7": $c7,
+    "c8": $c8,
+    "c9": $c9,
+);
+
+@each $name, $colors in $myColors {
+    $index: index($myColors, $colors);
+    .text-#{$name} {
+        color: $colors;
+    }
+    .bg-#{$name} {
+        background-color: $colors;
+    }
+    .text-#{$name} {
+        color: $colors;
+    }
+    .bg-h-#{$name} {
+        background-color: $colors;
+    }
+    .bc-#{$name} {
+        background-color: $colors;
+    }
+}

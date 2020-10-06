@@ -1,0 +1,115 @@
+@import "./abstracts/abstracts-dir.scss";
+
+.nounderline:hover {
+  text-decoration: none;
+}
+
+button,
+button:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  &:hover,
+  &:focus {
+    outline: none;
+  }
+}
+
+.cursor-default {
+  cursor: default !important;
+}
+
+.cursor-pointer {
+  cursor: pointer !important;
+}
+
+.rotate-90 {
+  transform: rotate(90deg);
+}
+
+.rotate-180 {
+  transform: rotate(180deg);
+}
+
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+.aligncenter {
+  margin: 0 auto;
+}
+
+button {
+  &:focus {
+    outline: 0;
+    box-shadow: none !important;
+    border-color: $primary;
+  }
+}
+
+:focus {
+  outline: 0 !important;
+}
+
+.fw-bold {
+  font-weight: bold;
+}
+
+/* scrollbar design */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0079c0;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #333333;
+}
+
+li {
+  list-style: none;
+}
+
+.mw-auto {
+  min-width: auto;
+}
+
+.border-radius-30 {
+  border-radius: 30px;
+}
+
+.text-decoration-underline {
+  text-decoration: underline;
+}
+
+@include media-breakpoint-desktop {
+}
+
+@include media-breakpoint-mobile-land {
+}
+
+@include media-breakpoint-mobile-land {
+}
+
+@include media-breakpoint-tab-land {
+}

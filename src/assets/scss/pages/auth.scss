@@ -1,0 +1,48 @@
+.auth-container-login {
+    button.border-1 {
+        border: 1px solid;
+    }
+}
+
+.auth-container-verifyOTP {
+    form {
+        .error-message {
+            text-align: center;
+            left: 0;
+            + .otp-input {
+                padding-bottom: 25px;
+            }
+        }
+    }
+    .otp-input {
+        justify-content: center;
+        > div {
+            padding: 0 10px;
+        }
+        input {
+            height: 55px;
+            width: 80px !important;
+            font-size: 18px;
+            &::-webkit-outer-spin-button,
+            &::-webkit-inner-spin-button {
+                -webkit-appearance: none;
+                margin: 0;
+            }
+        }
+    }
+}
+
+.auth-container-register {
+    .form-group {
+        .phone {
+            .error-message {
+                display: none;
+                + .code {
+                    input {
+                        border-color: #000;
+                    }
+                }
+            }
+        }
+    }
+}
