@@ -1,0 +1,36 @@
+.auth-layout {
+    .error-message {
+        color: #000;
+        font-weight: 600;
+    }
+    .header-logo {
+        width: 130px;
+        float: right;
+        margin: 50px 40px 0 0;
+    }
+    .main-image {
+        position: absolute;
+        bottom: 0;
+        left: -70%;
+        width: 600px;
+    }
+    .form-group {
+        input {
+            background-color: #0079c0;
+            border-color: #fff;
+            color: #fff;
+            font-size: 16px;
+            &::placeholder {
+                color: #fff;
+            }
+
+            &:-ms-input-placeholder {
+                color: #fff;
+            }
+
+            &::-ms-input-placeholder {
+                color: #fff;
+            }
+        }
+    }
+}

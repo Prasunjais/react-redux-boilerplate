@@ -1,0 +1,23 @@
+@import "../../../assets/scss/abstracts/abstracts-dir.scss";
+
+.form-group {
+    position: relative;
+    input,
+    select,
+    textarea {
+        border: 0.5px solid;
+        color: $c5;
+        font-size: 14px;
+        border-radius: 4px;
+        &::placeholder {
+            color: $c7;
+        }
+        &:focus {
+            outline: 0;
+            box-shadow: none;
+        }
+    }
+    input {
+        height: 50px;
+    }
+}

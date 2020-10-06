@@ -1,0 +1,1 @@
+export { PolicyFooter } from './PolicyFooter';

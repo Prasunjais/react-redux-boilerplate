@@ -1,0 +1,51 @@
+$root-font-size: 16px;
+
+@function fontSize($size) {
+  $remSize: $size / $root-font-size;
+  @return #{$remSize}rem;
+}
+
+/* left */
+$l: 20;
+@while $l > -1 {
+  .left-#{$l} {
+    left: $l * 1px;
+  }
+  $l: $l - 1;
+}
+
+/* right */
+$r: 20;
+@while $r > -1 {
+  .right-#{$r} {
+    right: $r * 1px;
+  }
+  $r: $r - 1;
+}
+
+/* Font Size */
+$fs: 38;
+@while $fs > 8 {
+  .fs-#{$fs} {
+    font-size: ($fs * 1) / 16 + rem;
+  }
+  $fs: $fs - 1;
+}
+
+/* Font-weight */
+$fw: 800;
+@while $fw > 400 {
+  .fw-#{$fw} {
+    font-weight: $fw;
+  }
+  $fw: $fw - 100;
+}
+
+/* Height */
+$height: 700;
+@while $height >= 100 {
+  .h-#{$height} {
+    height: $height;
+  }
+  $height: $height - 50;
+}
